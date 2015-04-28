@@ -2,7 +2,7 @@
 
 **WHAT IS THIS?** A highly opinionated daily graphics template for small, embeddable data journalism projects at Bergens Tidende, Norway. Docs are in Norwegian, but feel free to have look at the code.
 
-Highliy inspired by the works of the [NPR Visuals Team](https://github.com/nprapps)
+Highly inspired by the works of the [NPR Visuals Team](https://github.com/nprapps)
 
 Bord4s mini app template for å lage iframe embeds.
 
