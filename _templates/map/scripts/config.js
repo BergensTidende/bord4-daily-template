@@ -6,7 +6,7 @@ requirejs.config({
   },
   paths: {
     main: 'main',
-    pym: '../bower_components/pym.js/src/pym',
+    pym: '../bower_components/pym.js/dist/pym',
     jquery: '../bower_components/jquery/dist/jquery',
   },
   packages: [
