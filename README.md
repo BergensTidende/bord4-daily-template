@@ -6,6 +6,13 @@ Highly inspired by the works of the [NPR Visuals Team](https://github.com/nprapp
 
 Bord4s mini app template for å lage iframe embeds.
 
+#### Maler som finnes nå: 
+
+* vanilla (helt rensket side med jquery)
+* map (side med leaflet kart)
+* graphic (tom template)
+* personlist (list over personer hentet fra Google spreadsheet)
+
 ##Konfigurasjon
 
 Grunt-scriptene er avhengig av at du har satt en del environment variables på maskinen din (passord etc). Disse må du sette (og helst legge inn i din `~/.bash_profile` fil på Macen):
@@ -95,13 +102,13 @@ Da kan du importere i din main.scss f.eks. slik
 1. Clon bord4-app-template fra Github
 2. Kjør `npm install`
 3. Rediger `project.json` og legg inn den app_type som du vil jobbe med
-4. Kjør `grunt workon:[map|graphic|vanilla]` for å aktivere malen du har valgt
+4. Kjør `grunt workon:[map|graphic|vanilla|personlist]` for å aktivere malen du har valgt
 5. Kjør `bower install`
 
 
 ##Endre på malene/daily-templaten
 
-*  Kjør ` grunt workon:[map|graphic|vanilla]` for å aktivere templaten du skal jobbe på
+*  Kjør ` grunt workon:[map|graphic|vanilla|personlist]` for å aktivere templaten du skal jobbe på
 *  Kjør evt `bower install` om du har lagt til nye ting i bower.json-filen for templaten
 *  Kjør `grunt serve` for å se prosjektet med den valgte templaten
 *  Du kan nå redigere de js/scss/html-filene som ligger i app-foldere og se alt du gjør.
