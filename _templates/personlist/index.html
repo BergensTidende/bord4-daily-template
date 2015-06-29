@@ -1,0 +1,61 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" ng-app="prosjektnavnApp"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>prosjektnavn</title>
+  <meta name="description" content="prosjektnavn">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- build:css css/build.css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- endbuild -->
+
+  <script id="group-template" type="text/x-handlebars-template">
+     <section class="row group">
+     <div class="col-xs-12 groupheader">
+        <h2>{{ gruppe}}</h2>
+      </div>
+      <div class="col-xs-12 person-list">
+       {{#each personer}}
+            <div class="person-item">
+              <div class="media-left pull-left">
+                    <img class="media-object img-circle" src="{{#with ./this.bildeurl }}{{ this }}{{else}}https://placeholdit.imgix.net/~text?txtsize=33&w=200&h=200{{/with}}">
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">{{ ./this.navn }}</h3>
+                <h5 class="media-heading stilling">{{ ./this.stilling }}</h5>
+                <p>{{ ./this.tekst }}</p>
+              </div>
+            </div>
+        {{/each}}
+        </div>
+      </section>
+  </script>
+
+   <!-- vaniljeheader her -->
+</head>
+<body>
+  <div class="container-fluid">
+  <section class="row">
+      <div class="col-xs-12 headerbar">
+        <h2>Dette er de involverte</h2>
+      </div>
+  </section>
+    <section class="groups" id="group_container"></section>
+
+    <section class="row">
+      <div class="col-xs-12 readmore text-center">
+        <button class="btn btn-primary btn-readmore" id="btnreadmore">  Vis alle  </button>
+       </div>
+    </section>
+  </div>
+
+  <script data-main="scripts/config" src="bower_components/requirejs/require.js"></script>
+
+  <!-- Footer -->
+</body>
+</html>
