@@ -1,0 +1,158 @@
+$font_server_folder: "http://statisk.bt.no/fonts/";
+$icon_font_path: "http://statisk.bt.no/fonts/";
+
+@font-face {
+    font-family: 'TiemposTextRegular';
+    src: url('http://statisk.bt.no/fonts/TiemposTextWeb-Regular.eot');
+    src: url('http://statisk.bt.no/fonts/TiemposTextWeb-Regular.eot?#iefix') format('embedded-opentype'),
+         url('http://statisk.bt.no/fonts/TiemposTextWeb-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TiemposTextMedium';
+    src: url('http://statisk.bt.no/fonts/TiemposText-Medium.eot');
+    src: url('http://statisk.bt.no/fonts/TiemposText-Medium.eot?#iefix') format('embedded-opentype'),
+         url('http://statisk.bt.no/fonts/TiemposText-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TiemposHeadlineWebMedium';
+    src: url('http://statisk.bt.no/fonts/TiemposHeadlineWeb-Medium.eot');
+    src: url('http://statisk.bt.no/fonts/TiemposHeadlineWeb-Medium.eot?#iefix') format('embedded-opentype'),
+         url('http://statisk.bt.no/fonts/TiemposHeadlineWeb-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TiemposHeadlineWebSemibold';
+    src: url('http://statisk.bt.no/fonts/TiemposHeadlineWeb-Semibold.eot');
+    src: url('http://statisk.bt.no/fonts/TiemposHeadlineWeb-Semibold.eot?#iefix') format('embedded-opentype'),
+         url('http://statisk.bt.no/fonts/TiemposHeadlineWeb-Semibold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'plutobold';
+    src: url('http://statisk.bt.no/fonts/plutobold-webfont.eot');
+    src: url('http://statisk.bt.no/fonts/plutobold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://statisk.bt.no/fonts/plutobold-webfont.woff') format('woff'),
+         url('http://statisk.bt.no/fonts/plutobold-webfont.ttf') format('truetype'),
+         url('http://statisk.bt.no/fonts/plutobold-webfont.svg#plutobold') format('svg');
+    font-weight: bold;
+    font-style: bold;
+
+}
+
+@font-face {
+    font-family: 'plutolight';
+    src: url('http://statisk.bt.no/fonts/plutolight-webfont.eot');
+    src: url('http://statisk.bt.no/fonts/plutolight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://statisk.bt.no/fonts/plutolight-webfont.woff') format('woff'),
+         url('http://statisk.bt.no/fonts/plutolight-webfont.ttf') format('truetype'),
+         url('http://statisk.bt.no/fonts/plutolight-webfont.svg#plutolight') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibremedium';
+    src: url('http://statisk.bt.no/fonts/CalibreWeb-Medium.eot');
+    src: url('http://statisk.bt.no/fonts/CalibreWeb-Medium.eot?#iefix') format('embedded-opentype'),
+         url('http://statisk.bt.no/fonts/CalibreWeb-Medium.woff') format('woff'),
+         url('http://statisk.bt.no/fonts/CalibreWeb-Medium.ttf') format('truetype'),
+         url('http://statisk.bt.no/fonts/CalibreWeb-Medium.svg#calibremedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibresemibold';
+    src: url('http://statisk.bt.no/fonts/CalibreWeb-Semibold..eot');
+    src: url('http://statisk.bt.no/fonts/CalibreWeb-Semibold.eot?#iefix') format('embedded-opentype'),
+         url('http://statisk.bt.no/fonts/CalibreWeb-Semibold.woff') format('woff'),
+         url('http://statisk.bt.no/fonts/CalibreWeb-Semibold.ttf') format('truetype'),
+         url('http://statisk.bt.no/fonts/CalibreWeb-Semibold.svg#calibremedium') format('svg');
+}
+
+@font-face {
+    font-family: 'calibreregular';
+    src: url('http://statisk.bt.no/fonts/CalibreWeb-Regular.eot');
+    src: url('http://statisk.bt.no/fonts/CalibreWeb-Regular.eot?#iefix') format('embedded-opentype'),
+         url('http://statisk.bt.no/fonts/CalibreWeb-Regular.woff') format('woff'),
+         url('http://statisk.bt.no/fonts/CalibreWeb-Regular.ttf') format('truetype'),
+         url('http://statisk.bt.no/fonts/CalibreWeb-Regular.svg#calibreregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* PLAY*/
+.icon-uniE614:before {
+    content: "\e614";
+}
+
+@font-face {
+  font-family: 'bt-icons';
+  src: url('http://statisk.bt.no/fonts/icomoon/fonts/icomoon.eot');
+  src: url('http://statisk.bt.no/fonts/icomoon/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+       url('http://statisk.bt.no/fonts/icomoon/fonts/icomoon.woff') format('woff'),
+       url('http://statisk.bt.no/fonts/icomoon/fonts/icomoon.ttf') format('truetype'),
+       url('http://statisk.bt.no/fonts/icomoon/fonts/icomoon.svg#bt-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'bt-icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo:before {
+    content: "\e026";
+}
+
+.icon-arrow-right:before {
+    content: "\e01a";
+}
+
+.icon-bt-logo:before {
+    content: "\e02f";
+}
+
+.icon-menu:before {
+    content: "\e601";
+}
+
+.icon-circle-play:before {
+    content: "\e606";
+}
+
+.icon-arrow-left:before {
+    content: "\e01b";
+}
+.icon-cross:before {
+    content: "\e00e";
+}
+
+.icon-twitter:before {
+    content: "\e021";
+}
+
+.icon-profile:before {
+    content: "\e600";
+}
+
+.icon-facebook:before {
+    content: "\e01e";
+}
+
+.icon-play:before {
+    content: "\e614";
+}
+
+.icon-house:before {
+    content: "\e000";
+}

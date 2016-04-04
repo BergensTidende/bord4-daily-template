@@ -1,0 +1,63 @@
+$background-small: rgba(lighten($pink, 20%), .5);
+$background-medium: rgba(lighten($pink, 20%), .5);
+$background-large: rgba(lighten($pink, 20%), .5);
+
+.marker-cluster-small {
+	background-color: $background-small;
+	}
+.marker-cluster-small div {
+	background-color: $background-small;
+	}
+
+.marker-cluster-medium {
+	background-color: $background-medium;
+	}
+.marker-cluster-medium div {
+	background-color: $background-medium;
+	}
+
+.marker-cluster-large {
+	background-color: $background-large;
+	}
+.marker-cluster-large div {
+	background-color: $background-large;
+	}
+
+.leaflet-oldie .marker-cluster-small {
+	background-color: $background-small;
+	}
+.leaflet-oldie .marker-cluster-small div {
+	background-color: $background-small;
+	}
+
+.leaflet-oldie .marker-cluster-medium {
+	background-color: $background-medium;
+	}
+.leaflet-oldie .marker-cluster-medium div {
+	background-color: $background-medium;
+	}
+
+.leaflet-oldie .marker-cluster-large {
+	background-color: $background-large;
+	}
+.leaflet-oldie .marker-cluster-large div {
+	background-color: $background-large;
+}
+
+.marker-cluster {
+	background-clip: padding-box;
+	border-radius: 20px;
+	}
+.marker-cluster div {
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 5px;
+
+	text-align: center;
+	border-radius: 15px;
+	font: 14px 'calibresemibold', Arial, Helvetica, sans-serif;
+	}
+.marker-cluster span {
+	line-height: 30px;
+	}
